@@ -1,8 +1,11 @@
-# QRCode Terminal Edition [![Build Status][travis-ci-img]][travis-ci-url]
+# QRCode Terminal Edition 
 
 > Going where no QRCode has gone before.
 
 ![Basic Example][basic-example-img]
+
+# Notice
+Just pre release of [qrcode-terminal](https://www.npmjs.com/package/qrcode-terminal). For most case I suggest you to continually use qrcode-terminal.
 
 # Node Library
 
@@ -10,11 +13,11 @@
 
 Can be installed with:
 
-    $ npm install qrcode-terminal
+    $ npm install qrcode-terminal-alpha
 
 and used:
 
-    var qrcode = require('qrcode-terminal');
+    var qrcode = require('qrcode-terminal-alpha');
 
 ## Usage
 
@@ -45,7 +48,7 @@ If you want to display small output, provide `opts` with `small`:
 
 ## Install
 
-    $ npm install -g qrcode-terminal
+    $ npm install -g qrcode-terminal-alpha
 
 ## Usage
 
@@ -74,8 +77,6 @@ To run tests run `npm test`
     Gord Tanner <gtanner@gmail.com>
     Micheal Brooks <michael@michaelbrooks.ca>
 
-[travis-ci-img]: https://travis-ci.org/gtanner/qrcode-terminal.png
-[travis-ci-url]: https://travis-ci.org/gtanner/qrcode-terminal
 [basic-example-img]: https://raw.github.com/gtanner/qrcode-terminal/master/example/basic.png
 [node-qrcode-url]: https://github.com/soldair/node-qrcode
 
